@@ -18,26 +18,28 @@
 3. 🔋 [Features](#features)
 4. ⭐ [Let's Connect](#follow-me)
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Introduction  
+I designed a **multi-page Sushi Restaurant website** as my final project submission for my Terra Learning virtual internship. The website features a modern UI with a homepage, interactive menu, and cart page.
 
-I created an accordion of sample Frequently Asked Questions (FAQs) using simple JS DOM manipulation as a solution to a Frontend Mentor challenge and a project submission for a tech training program I participated in.
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- HTML5
+## ⚙️ Tech Stack  
+- HTML5  
 - CSS3
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features  
+**👉 Multi-Page Navigation:** Seamless transitions between **Home**, **Menu**, and **Cart** pages with a sleek sidebar menu.  
 
-👉 **Interactive FAQ Accordion**: A user-friendly accordion that toggles answers to FAQs with a simple click, enhancing content accessibility.  
+**👉 Menu Gallery:** Visually appealing grid layout of sushi dishes.  
 
-👉 **Smooth Animations with CSS Transitions**: Elegant transitions for opening and closing accordion items, providing a polished user experience.  
+**👉 Cart System:** Cart page with **quantity adjusters** (`+`/`-`), item removal, subtotal calculation, and promo code input.
 
-👉 **Dynamic Icon Toggle**: Icons switch between `+` and `-` symbols to visually indicate the expanded or collapsed state of each FAQ item.  
+**👉 Custom UI Elements**  
+- **Goldenrod accent typography** for brand emphasis.  
+- **Sidebar navigation** with highlighted active tab.  
+- **"Load More" button** for menu pagination (placeholder).  
 
-👉 **Hover Effects**: Subtle color changes on FAQ questions when hovered, improving interactivity and user feedback.  
-
-👉 **Fully Responsive Design**: Adapts seamlessly to all screen sizes, from mobile to desktop, ensuring usability across devices.
+**👉 Visual Polish**  
+- High-resolution food images with descriptive labels.  
+- Subtle shadows and rounded corners for depth.
 
 ## <a name="follow-me">🫱🏽‍🫲🏼 Let's Connect</a>
 **Hey there! Interested in working with me?** 
