@@ -1,0 +1,591 @@
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url(fonts/BalooBhai2-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    width: 1095px;
+    height: 111px;
+    left: 210px;
+    top: 43px;
+    font-size: 25px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    text-decoration: underline solid #F1D5BB 5px;
+}
+
+header div {
+    width: 135px;
+    height: 63px;
+}
+
+.menu {
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 740px;
+    align-content: center;
+    justify-content: center;
+    left: 65px;
+    top: 100px;
+    margin-bottom: 50px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    box-shadow: 20px 15px 25px rgba(165, 165, 165, 0.589);
+}
+
+.menu .icon1 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 24.5px;
+    top: 15.65px;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 1500px;
+    font-size: 40px;
+    color: #F1D5BB;
+    cursor: pointer;
+}
+
+.menu .icon2 img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 145px;
+    cursor: pointer;
+}
+
+.menu .icon3 img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25.5px;
+    top: 265px;
+    cursor: pointer;
+}
+
+.menu .icon4 .highlight {
+    position: absolute;
+    width: 92px;
+    height: 90px;
+    top: 365px;
+    left: -1px;
+    cursor: pointer;
+    background-color: #F1D5BB;
+    box-shadow: 1.5px 0px 3px 0px rgba(161, 161, 161, 0.459);
+}
+
+.menu .icon4 .highlight img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 28px;
+    cursor: pointer;
+}
+
+.menu .icon5 img {
+    position: absolute;
+    width: 35px;
+    height: 50px;
+    left: 29.5px;
+    top: 525px;
+    cursor: pointer;
+}
+
+.menu .icon6 img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 29px;
+    top: 660px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue {
+    position: absolute;
+    width: 545px;
+    height: 545px;
+    left: 210px;
+    top: 100px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 20px;
+    top: 20px;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .price {
+    position: absolute;
+    width: 162px;
+    height: 31px;
+    left: 130px;
+    top: 28px;
+    font-family: 'Mulish';
+    font-weight: 600;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .price tag {
+    font-size: 20px;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .price p {
+    width: 65px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .quantity div {
+    position: absolute;
+    width: 46px;
+    height: 36px;
+    left: 380px;
+    top: 45px;
+    background-color: white;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .quantity #one {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 395.5px;
+    top: 51px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .quantity #minus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 355px;
+    top: 50px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .quantity #plus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 441px;
+    top: 51px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Smashed-Avo .cancel img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 485px;
+    top: 55px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Yin-Yang img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 155px;
+    left: 20px;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .price {
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    top: 161px;
+    left: 130px;
+    font-family: 'Mulish';
+}
+
+.cart-items .cart-catalogue .Yin-Yang .price tag {
+    font-size: 20px;
+    font-weight: 600;
+    top: 186px;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .price p {
+    width: 65px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    top: 236px;
+    margin-top: 19px;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .quantity div {
+    position: absolute;
+    width: 46px;
+    height: 36px;
+    left: 380px;
+    top: 185px;
+    background-color: white;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .quantity #one {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 395px;
+    top: 190px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .quantity #minus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 355px;
+    top: 190px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .quantity #plus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 441px;
+    top: 190px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Yin-Yang .cancel img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 485px;
+    top: 195px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Pancakes img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 298px;
+    left: 20px;
+}
+
+.cart-items .cart-catalogue .Pancakes .price {
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    top: 303px;
+    left: 130px;
+    font-family: 'Mulish';
+}
+
+.cart-items .cart-catalogue .Pancakes .price tag {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-items .cart-catalogue .Pancakes .price p {
+    width: 65px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 17px;
+}
+
+.cart-items .cart-catalogue .Pancakes .quantity div {
+    position: absolute;
+    width: 46px;
+    height: 36px;
+    left: 380px;
+    top: 325px;
+    background-color: white;
+}
+
+.cart-items .cart-catalogue .Pancakes .quantity #one {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 395px;
+    top: 330px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cart-items .cart-catalogue .Pancakes .quantity #minus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 355px;
+    top: 330px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Pancakes .quantity #plus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 441px;
+    top: 330px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Pancakes .cancel img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 485px;
+    top: 335px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Ranchero img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 445px;
+    left: 20px;
+}
+
+.cart-items .cart-catalogue .Ranchero .price {
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    top: 452px;
+    left: 130px;
+    font-family: 'Mulish';
+}
+
+.cart-items .cart-catalogue .Ranchero .price tag {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-items .cart-catalogue .Ranchero .price p {
+    width: 65px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 17px;
+}
+.cart-items .cart-catalogue .Ranchero .quantity div {
+    position: absolute;
+    width: 46px;
+    height: 36px;
+    left: 380px;
+    top: 470px;
+    background-color: white;
+}
+
+.cart-items .cart-catalogue .Ranchero .quantity #one {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 395px;
+    top: 475px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cart-items .cart-catalogue .Ranchero .quantity #minus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 355px;
+    top: 475px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-items .cart-catalogue .Ranchero .quantity #plus {
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 441px;
+    top: 475px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-items .cart-catalogue .Ranchero .cancel img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 485px;
+    top: 480px;
+    cursor: pointer;
+}
+
+.subtotal {
+    position: absolute;
+    width: 398.7px;
+    height: 257.4px;
+    top: 100px;
+    left: 800px;
+    background-color: #F1D5BB;
+    font-family: 'Mulish';
+    border-radius: 3px;
+}
+
+.subtotal h1 {
+    position: absolute;
+    width: 249px;
+    height: 50px;
+    left: 40px;
+    top: 22px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.subtotal .order {
+    position: absolute;
+    display: flex;
+    left: 40px;
+    top: 112px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.subtotal .order #text {
+    width: 147px;
+    height: 38px;
+}
+
+.subtotal .order #dollar {
+    width: 97px;
+    height: 38px;
+}
+
+.subtotal button {
+    position: absolute;
+    width: 318.5px;
+    height: 60.2px;
+    left: 40px;
+    top: 178px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 25px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.promocode {
+    box-sizing: border-box;
+    position: absolute;
+    width: 398.7px;
+    height: 307.4px;
+    left: 800px;
+    top: 353px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+}
+
+.promocode h1 {
+    position: absolute;
+    width: 227px;
+    height: 50px;
+    left: 35px;
+    top: 32px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.promocode form .order {
+    position: absolute;
+    width: 310.5px;
+    height: 34.2px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 35px;
+    top: 107px;
+    border: solid 1px #F1D5BB;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Mulish';
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.promocode button {
+    position: absolute;
+    width: 149.4px;
+    height: 70.2px;
+    left: 35px;
+    top: 215px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 210px;
+    top: 850px;
+    padding-bottom: 20px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 10px;
+}

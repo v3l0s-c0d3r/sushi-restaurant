@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url(fonts/BalooBhai2-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 890px;
+    display: flex;
+    align-items: center;
+    background: white;
+    background-size: contain;
+}
+
+header {
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    left: 243px;
+    top: 45px;
+    font-size: 25px;
+    font-family: 'Mulish';
+    font-weight: 410;
+    text-decoration: underline solid #F1D5BB 5px;
+}
+
+header div {
+    width: 300px;
+    height: 50px;
+}
+
+.food-items {
+    position: absolute;
+    width: 945px;
+    height: 600px;
+    left: 243px;
+    top: 100px;
+}
+
+.food-items h2{
+    cursor: pointer;
+}
+
+.food-items .Smashed-Avo .item1 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 1px;
+    top: 1px;
+    background: url(images/Rectangle\ 9\ \(1\).png);
+    background-size: contain;
+    border-radius: 2px;
+}
+
+.food-items .Smashed-Avo h2 {
+    position: absolute;
+    align-items: center;
+    width: 130px;
+    height: 25px;
+    left: 47px;
+    top: 250px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Yin-Yang .item2 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 250px;
+    top: 1px;
+    background: url(images/Rectangle\ 10.png);
+    background-size: contain;
+    border-radius: 2px;
+}
+
+.food-items .Yin-Yang h2 {
+    position: absolute;
+    align-items: center;
+    width: 101px;
+    height: 25px;
+    left: 308px;
+    top: 250px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Pancakes .item3 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 500px;
+    top: 1px;
+    background: url(images/Rectangle\ 11.png);
+    background-size: contain;
+    border-radius: 2px;
+}
+
+.food-items .Pancakes h2 {
+    position: absolute;
+    align-items: center;
+    width: 91px;
+    height: 25px;
+    left: 562px;
+    top: 250px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Huevos-Rancheros .item4 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 750px;
+    top: 1px;
+    background: url(images/Rectangle\ 12.png);
+    background-size: contain;
+}
+
+.food-items .Huevos-Rancheros h2 {
+    position: absolute;
+    align-items: center;
+    width: 176px;
+    height: 25px;
+    left: 783.5px;
+    top: 250px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .tofu .item5 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 1px;
+    top: 290px;
+    background: url(images/Rectangle\ 13.png);
+    background-size: contain;
+}
+
+.food-items .tofu h2 {
+    position: absolute;
+    align-items: center;
+    width: 161px;
+    height: 25px;
+    left: 37.5px;
+    top: 539px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Breakkie-Roll .item6 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 250px;
+    top: 290px;
+    background: url(images/Rectangle\ 14.png);
+    background-size: contain;
+}
+
+.food-items .Breakkie-Roll h2 {
+    position: absolute;
+    align-items: center;
+    width: 123px;
+    height: 25px;
+    left: 299.5px;
+    top: 539px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Breakkie-Roll2 .item7 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 500px;
+    top: 290px;
+    background: url(images/Rectangle\ 15.png);
+    background-size: contain;
+}
+
+.food-items .Breakkie-Roll2 h2 {
+    position: absolute;
+    align-items: center;
+    width: 123px;
+    height: 25px;
+    left: 551px;
+    top: 539px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+.food-items .Burrito .item8 {
+    position: absolute;
+    width: 194px;
+    height: 238px;
+    left: 750px;
+    top: 290px;
+    background: url(images/Rectangle\ 16.png);
+    background-size: contain;
+}
+
+.food-items .Burrito h2 {
+    position: absolute;
+    align-items: center;
+    width: 65px;
+    height: 25px;
+    left: 825px;
+    top: 539px;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+
+button {
+    position: absolute;
+    width: 174px;
+    height: 44px;
+    top: 720px;
+    left: 630px;
+    background: #0C0B0B;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25.1px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 740px;
+    align-content: center;
+    justify-content: center;
+    left: 65px;
+    top: 100px;
+    margin-bottom: 50px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    box-shadow: 20px 15px 25px rgba(165, 165, 165, 0.589);
+}
+
+.menu .icon1 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 24.5px;
+    top: 15.65px;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 1500px;
+    font-size: 40px;
+    color: #F1D5BB;
+    cursor: pointer;
+}
+
+.menu .icon2 img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.menu .icon3 .highlight {
+    position: absolute;
+    width: 92px;
+    height: 90px;
+    top: 249px;
+    left: -1px;
+    cursor: pointer;
+    background-color: #F1D5BB;
+    box-shadow: 1.5px 0px 3px 0px rgba(161, 161, 161, 0.459);
+}
+
+.menu .icon3 .highlight img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 27px;
+    top: 25.5px;
+}
+
+.menu .icon4 img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 400px;
+    cursor: pointer;
+}
+
+.menu .icon5 img {
+    position: absolute;
+    width: 35px;
+    height: 50px;
+    left: 29.5px;
+    top: 525px;
+    cursor: pointer;
+}
+
+.menu .icon6 img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 29px;
+    top: 660px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 244px;
+    top: 830px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 11px;
+}
