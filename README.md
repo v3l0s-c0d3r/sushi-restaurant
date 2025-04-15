@@ -26,7 +26,6 @@ I created an accordion of sample Frequently Asked Questions (FAQs) using simple 
 
 - HTML5
 - CSS3
-- Vanilla JS
 
 ## <a name="features">🔋 Features</a>
 
